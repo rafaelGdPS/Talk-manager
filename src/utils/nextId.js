@@ -6,7 +6,6 @@ const nextId = async (path) => {
     if (cur.id > acc) return cur.id;
     return acc; 
   }, 0);
-  console.log(findId);
   return findId + 1;
 };
 
